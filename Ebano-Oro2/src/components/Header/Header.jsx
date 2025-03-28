@@ -1,25 +1,43 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import './Header.css';
 
 export const Header = ( ) => {
     const [menu, setMenu] = useState(false);
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+    useEffect(() => {
+        const handleResize = () => {
+          setIsMobile(window.innerWidth < 768);
+          if (window.innerWidth >= 768) {
+            setMenu(true);
+          }
+        };
+    
+        window.addEventListener("resize", handleResize);
+        handleResize(); 
+    
+        return () => window.removeEventListener("resize", handleResize);
+      }, []);
+    
   return (
     <header className="header">
         <div className="header-logo-container">
             <img src="" alt="" />
         </div>
         <div className="header-nav-container">
-            <button className="menu-btn" onClick={() => setMenu(!menu)}>
-                ☰
-            </button>
+            {isMobile && (
+                <button className="menu-btn" onClick={() => setMenu(!menu)}>
+                    ☰
+                </button>
+            )}
             
             <motion.nav
-                className='header-nav'
-                initial={{ x: "100%" }} // Empieza fuera de la pantalla (derecha)
-                animate={{ x: menu ? "0%" : "100%" }} // Se mueve a la izquierda cuando abre
-                transition={{ duration: 0.3, ease: "easeOut" }} // Animación más suave
-                style={{ display: menu ? "block" : "none" }}>
+                className="header-nav"
+                initial={{ x: "100%" }}
+                animate={{ x: menu ? "0%" : "100%" }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+                style={{ display: menu || !isMobile ? "flex" : "none" }}>
                 <ul className="header-nav-list">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Sobre Nosotros</a></li>
@@ -30,7 +48,7 @@ export const Header = ( ) => {
                     <li><a href="#">Contacto</a></li>
                 </ul>
                 <div className="header-reserve-container">
-                    <button className="header-reserve-button"></button>
+                    <button className="header-reserve-button">Reservar</button>
                 </div>
                 </motion.nav>
         </div>

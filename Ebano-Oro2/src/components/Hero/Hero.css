@@ -1,0 +1,35 @@
+.hero{
+    background: url(./hero-back.png) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .hero-content{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    height: 30%;
+}
+.hero .hero-content .hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}
+.hero .hero-content .hero-text .hero-phrase{
+    font-size: 1.2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.hero .hero-content .hero-text .hero-title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: monospace;
+}
