@@ -3,8 +3,9 @@ import './About-Us.css'
 export const AboutUs = () => {
     return (
         <section className="about-us">
+            <h2>¿Quienes Somos?</h2>
             <div className="about-us-container">
-                <div className="about-us-image-container" style={{gridRow: 1 / 2}}>
+                <div className="about-us-image-container first-image">
                     <img src="" alt="" className="about-us-image" />
                 </div>
 
@@ -19,7 +20,7 @@ export const AboutUs = () => {
                     </div>
                 </div>  
 
-                <div className="about-us-image-container" style={{gridRow: 3/4  }}>
+                <div className="about-us-image-container second-image" style={{gridRow: 3/4  }}>
                     <img src="" alt="" className="about-us-image" />
                 </div>
             </div>
