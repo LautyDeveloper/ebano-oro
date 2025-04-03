@@ -77,29 +77,29 @@ export const Platos = () => {
         image={""}
         platos={[
           {
-            title: "Carpaccio de Res",
-            desc: "Láminas finas con aderezo cítrico.",
-            price: "$12.000",
+            title: "Crème Brûlée de Vainilla",
+            desc: "Clásico, crocante y sedoso.",
+            price: "$9.000",
           },
           {
-            title: "Tartare de Salmón",
-            desc: "Frescura y elegancia en cada bocado.",
-            price: "$15.500",
+            title: "Pavlova de Frutas Tropicales",
+            desc: "Intensidad de chocolate con frescura frutal.",
+            price: "$10.500",
           },
           {
-            title: "Bruschettas de Prosciutto y Burrata",
-            desc: "Texturas y sabores equilibrados.",
+            title: "Tarta de Chocolate Belga y Frambuesas",
+            desc: "Ligera, crujiente y llena de frescura.",
             price: "$11.000",
           },
           {
-            title: "Sopa de Cebolla Gratinada",
-            desc: "Receta clásica con un toque gourmet.",
+            title: "Milhojas de Dulce de Leche y Almendras",
+            desc: "Capas crocantes con relleno cremoso.",
             price: "$10.000",
           },
           {
-            title: "Ensalada de Peras, Gorgonzola y Nueces",
-            desc: "Dulce, salado y crocante en armonía.",
-            price: "$13.000",
+            title: "Cheesecake de Maracuyá y Mango",
+            desc: "Dulzura y acidez en perfecto balance.",
+            price: "$9.800",
           },
         ]}
         invested={false}
