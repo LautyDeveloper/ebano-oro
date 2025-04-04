@@ -1,0 +1,18 @@
+.reservar-container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #191716;
+}
+
+.reservar-container .reservar-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 80%;
+}
+
+.reservar-container .reservar-content img{
+    display: none;
+}
