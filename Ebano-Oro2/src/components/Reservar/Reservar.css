@@ -10,9 +10,23 @@
     justify-content: center;
     align-items: center;
     height: 90%;
-    width: 80%;
+    width: 100%;
 }
 
 .reservar-container .reservar-content img{
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .reservar-container .reservar-content img{
+    display: block;
+    width: 400px;
+    height: 600px;
+  }
+
+  .reservar-container .reservar-content{
+    justify-content: space-between;
+    width: 90%;
+  }
+
 }

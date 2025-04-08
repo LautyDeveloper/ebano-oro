@@ -1,4 +1,5 @@
 import { Input } from "./Input";
+import "./Reservar-Form.css";
 
 export function ReservarForm() {
   return (
