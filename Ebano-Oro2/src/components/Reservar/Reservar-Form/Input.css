@@ -14,7 +14,6 @@
 }
 
 .reservar-form-input-container input {
-  width: 100%;
   height: 50px;
   border-radius: 10px;
   border: 2px solid #e6af2e;
@@ -32,7 +31,5 @@
 @media screen and (min-width: 768px) {
   .reservar-form-input-container {
     align-items: flex-start;
-  }
-  .reservar-form-input-container label {
   }
 }

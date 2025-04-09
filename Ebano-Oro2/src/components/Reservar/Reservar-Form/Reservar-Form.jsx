@@ -15,16 +15,18 @@ export function ReservarForm() {
           type={"number"}
           placeholder={"Cuantos seran en la Mesa"}
         />
-        <Input
-          name={"Fecha"}
-          type={"date"}
-          placeholder={"Para cuando reservan"}
-        />
-        <Input
-          name={"Hora"}
-          type={"time"}
-          placeholder={"Ingrese Su La hora de su reserva"}
-        />
+        <div className="reservar-form-section-fecha-hora-container">
+          <Input
+            name={"Fecha"}
+            type={"date"}
+            placeholder={"Para cuando reservan"}
+          />
+          <Input
+            name={"Hora"}
+            type={"time"}
+            placeholder={"Ingrese Su La hora de su reserva"}
+          />
+        </div>
         <Input
           name={"Telefono"}
           type={"tel"}

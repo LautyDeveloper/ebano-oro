@@ -13,6 +13,21 @@
   gap: 20px;
 }
 
+.reservar-form-section form input{
+  width: 100%;
+}
+
+
+.reservar-form-section form .reservar-form-section-fecha-hora-container{
+  width: 100%;
+  display: flex;
+}
+
+.reservar-form-section form .reservar-form-section-fecha-hora-container input{
+  width: 90%;
+}
+
+
 @media screen and (min-width: 768px) {
   .reservar-form-section {
     width: 50%;
