@@ -21,9 +21,15 @@
 .reservar-form-section form .reservar-form-section-fecha-hora-container{
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .reservar-form-section form .reservar-form-section-fecha-hora-container input{
+  width: 90%;
+}
+
+.reservar-form-section form .reservar-form-section-fecha-hora-container label{
   width: 90%;
 }
 

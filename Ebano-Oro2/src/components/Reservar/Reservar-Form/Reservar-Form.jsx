@@ -25,6 +25,7 @@ export function ReservarForm() {
             name={"Hora"}
             type={"time"}
             placeholder={"Ingrese Su La hora de su reserva"}
+            style={{ marginLeft: "auto" }}
           />
         </div>
         <Input
@@ -32,6 +33,7 @@ export function ReservarForm() {
           type={"tel"}
           placeholder={"Ingrese Su Telefono"}
         />
+        <Input type={"submit"} placeholder={"Ingrese Su Email"} />
       </form>
     </section>
   );
