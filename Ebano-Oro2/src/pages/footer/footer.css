@@ -21,6 +21,15 @@ footer .footer-content img {
     border: 4px solid red;
 }
 
+footer .footer-content .footer-data{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 footer .footer-content .footer-links-container{
     display: none;
 }
@@ -37,4 +46,52 @@ footer .footer-content p{
     font-size: 1.5rem;
     margin: 0;
     padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        height: 50vh;
+    }
+
+    footer .footer-content {
+        width: 90%;;
+        height: 90%;
+        flex-direction: row;
+    }
+
+    
+    footer .footer-content .footer-data{
+        width: 50%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer .footer-content img{
+        height: 250px;
+        max-width: 550px;
+    }
+
+    footer .footer-content .footer-links-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    } 
+
+    footer .footer-content .footer-links-container a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    footer .footer-content .footer-redes-container{
+        max-width: 500px;
+    }
+
+    footer .footer-content p{
+        font-size: 1rem;
+    }
 }

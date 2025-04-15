@@ -16,6 +16,10 @@ function App() {
       <Reserve />
       <Contact />
       <Footer />
+
+      <div className="developed-by">
+        <p>Desarrollado con ♥ por LautyDev☀</p>
+      </div>
     </div>
   );
 }
