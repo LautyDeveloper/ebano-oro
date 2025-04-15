@@ -1,0 +1,14 @@
+.developed-by{
+    background-color: #191716;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1.8rem;
+    padding: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .developed-by{
+        padding: 15px;
+    }
+}

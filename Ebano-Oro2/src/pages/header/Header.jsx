@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import "./Header.css";
+import "./header.css";
 
 export const Header = () => {
   const [menu, setMenu] = useState(false);

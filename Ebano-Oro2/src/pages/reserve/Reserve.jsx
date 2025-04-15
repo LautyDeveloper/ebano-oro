@@ -1,12 +1,12 @@
-import "./Reservar.css";
-import { ReservarForm } from "./Reservar-Form/Reservar-Form";
+import "./reserve.css";
+import { ReserveForm } from "./components/reserve-form/ReserveForm";
 
-export function Reservar() {
+export function Reserve() {
   return (
     <section className="reservar-container">
       <div className="reservar-content">
         <img src={null} alt="" />
-        <ReservarForm />
+        <ReserveForm />
       </div>
     </section>
   );

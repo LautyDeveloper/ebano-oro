@@ -1,21 +1,25 @@
 import "./App.css";
-import { AboutUs } from "./components/About Us/About-Us";
-import { Contacto } from "./components/Contacto/Contacto";
-import { Footer } from "./components/Footer/Footer";
-import { Header } from "./components/Header/Header";
-import { Hero } from "./components/Hero/Hero";
-import { Platos } from "./components/Platos/Platos";
-import { Reservar } from "./components/Reservar/Reservar";
+import { AboutUs } from "./pages/about-us/AboutUs.jsx";
+import { Contact } from "./pages/contact/Contact.jsx";
+import { Footer } from "./pages/footer/Footer.jsx";
+import { Header } from "./pages/header/Header.jsx";
+import { Hero } from "./pages/hero/Hero.jsx";
+import { Plates } from "./pages/plates/Plates.jsx";
+import { Reserve } from "./pages/reserve/Reserve.jsx";
 function App() {
   return (
     <div className="App">
       <Header />
       <Hero />
       <AboutUs />
-      <Platos />
-      <Reservar />
-      <Contacto />
+      <Plates />
+      <Reserve />
+      <Contact />
       <Footer />
+
+      <div className="developed-by">
+        <p>Desarrollado con ♥ por LautyDev☀</p>
+      </div>
     </div>
   );
 }

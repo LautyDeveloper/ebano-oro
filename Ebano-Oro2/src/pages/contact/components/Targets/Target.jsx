@@ -1,4 +1,4 @@
-import "./Target.css";
+import "./target.css";
 export const Target = ({ image, title, parragraph }) => {
     return (
         <div className="target">
