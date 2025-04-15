@@ -1,0 +1,8 @@
+.red-link{
+    text-decoration: none;
+    color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 2px solid #E6AF2E;
+}
