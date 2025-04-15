@@ -1,10 +1,11 @@
 import { Red } from "./Red/Red";
+import { Redes } from "./redes.js";
 import "./Footer.css";
 export const Footer = () => {
   return (
     <footer>
       <div className="footer-content">
-        <img src="" alt="" />
+        <img src={null} alt="" />
         <div className="footer-links-container">
           <a href="">Inicio</a>
           <a href="">Sobre Nosotros</a>
@@ -14,10 +15,9 @@ export const Footer = () => {
           <a href="">Contacto</a>
         </div>
         <div className="footer-redes-container">
-          <Red name={"Instagram"} url={"htpps://instagram.com"} />
-          <Red name={"Instagram"} url={"htpps://instagram.com"} />
-          <Red name={"Instagram"} url={"htpps://instagram.com"} />
-          <Red name={"Instagram"} url={"htpps://instagram.com"} />
+          {Redes.map((red, index) => {
+            return <Red key={index} name={red.name} url={red.url} />;
+          })}
         </div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio

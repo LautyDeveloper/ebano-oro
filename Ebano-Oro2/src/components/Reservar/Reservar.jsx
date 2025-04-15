@@ -5,7 +5,7 @@ export function Reservar() {
   return (
     <section className="reservar-container">
       <div className="reservar-content">
-        <img src="" alt="" />
+        <img src={null} alt="" />
         <ReservarForm />
       </div>
     </section>
