@@ -6,7 +6,7 @@ export const Platos = () => {
       <ListOfPlates
         phrase={"pequeños detalles"}
         title={"ENTRADAS..."}
-        image={""}
+        image={null}
         platos={[
           {
             title: "Carpaccio de Res",
@@ -40,7 +40,7 @@ export const Platos = () => {
       <ListOfPlates
         phrase={"excelencia y perfeccion en cada uno"}
         title={"PLATOS PRINCIPALES..."}
-        image={""}
+        image={null}
         platos={[
           {
             title: "Filet Mignon con Puré Trufado",
@@ -74,7 +74,7 @@ export const Platos = () => {
       <ListOfPlates
         phrase={"delicadeza"}
         title={"POSTRES..."}
-        image={""}
+        image={null}
         platos={[
           {
             title: "Crème Brûlée de Vainilla",
