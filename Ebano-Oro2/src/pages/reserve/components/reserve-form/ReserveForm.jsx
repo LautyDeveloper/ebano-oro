@@ -1,7 +1,7 @@
 import { Input } from "./Input";
-import "./Reservar-Form.css";
+import "./reserve-form.css";
 
-export function ReservarForm() {
+export function ReserveForm() {
   return (
     <section className="reservar-form-section">
       <form action="">

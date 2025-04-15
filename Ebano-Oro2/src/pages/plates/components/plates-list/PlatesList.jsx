@@ -1,5 +1,5 @@
-import "./ListOfPlates.css";
-export const ListOfPlates = ({ phrase, title, image, platos, invested }) => {
+import "./plates-list.css";
+export const PlatesList = ({ phrase, title, image, platos, invested }) => {
   return (
     <div className={`platos ${invested ? "platos-black" : "platos-blue"}`}>
       <div className={`platos-container ${invested ? "invested" : ""}`}>

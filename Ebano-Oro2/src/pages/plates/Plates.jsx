@@ -1,9 +1,9 @@
-import { ListOfPlates } from "./ListOfPlates";
-import "./Platos.css";
-export const Platos = () => {
+import { PlatesList } from "./components/plates-list/PlatesList";
+import "./plates.css";
+export const Plates = () => {
   return (
     <section className="platos-section">
-      <ListOfPlates
+      <PlatesList
         phrase={"pequeños detalles"}
         title={"ENTRADAS..."}
         image={null}
@@ -37,7 +37,7 @@ export const Platos = () => {
         invested={false}
       />
 
-      <ListOfPlates
+      <PlatesList
         phrase={"excelencia y perfeccion en cada uno"}
         title={"PLATOS PRINCIPALES..."}
         image={null}
@@ -71,7 +71,7 @@ export const Platos = () => {
         invested={true}
       />
 
-      <ListOfPlates
+      <PlatesList
         phrase={"delicadeza"}
         title={"POSTRES..."}
         image={null}

@@ -1,6 +1,6 @@
-import { Red } from "./Red/Red";
-import { Redes } from "./redes.js";
-import "./Footer.css";
+import { Red } from "./components/Red/Red.jsx";
+import { Redes } from "../../data/redes.js";
+import "./footer.css";
 export const Footer = () => {
   return (
     <footer>

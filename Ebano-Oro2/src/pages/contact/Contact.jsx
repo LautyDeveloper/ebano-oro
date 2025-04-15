@@ -1,6 +1,6 @@
-import "./Contacto.css";
-import { Target } from "./Targets/Target";
-export const Contacto = () => {
+import "./contact.css";
+import { Target } from "./components/Targets/Target";
+export const Contact = () => {
   return (
     <div className="contacto-container">
       <div className="contacto-content">
