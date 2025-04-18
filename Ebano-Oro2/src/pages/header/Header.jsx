@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import logoImage from "../../assets/logo-black.png"; // Replace with your logo image path
 import "./header.css";
 
 export const Header = () => {
@@ -23,7 +24,7 @@ export const Header = () => {
   return (
     <header className="header">
       <div className="header-logo-container">
-        <img src={null} alt="" />
+        <h1>Ebano & Oro</h1>
       </div>
       <div className="header-nav-container">
         {isMobile && (
