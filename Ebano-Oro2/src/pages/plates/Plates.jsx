@@ -1,5 +1,8 @@
 import { PlatesList } from "./components/plates-list/PlatesList";
 import { useFetchPlates } from "../../hooks/useFetchPlates";
+import entradasImageUrl from "../../assets/media/content/entradas.png";
+import principalesImageUrl from "../../assets/media/content/principales.png";
+import postresImageUrl from "../../assets/media/content/postres.png";
 import "./plates.css";
 export const Plates = () => {
   const { platos: entradas, loading: loadingEntradas } = useFetchPlates("entradas");
@@ -13,21 +16,21 @@ export const Plates = () => {
       <PlatesList
         phrase="pequeños detalles"
         title="ENTRADAS..."
-        image={null}
+        image={entradasImageUrl}
         platos={entradas}
         invested={false}
       />
       <PlatesList
         phrase="excelencia y perfección en cada uno"
         title="PLATOS PRINCIPALES..."
-        image={null}
+        image={principalesImageUrl}
         platos={principales}
         invested={true}
       />
       <PlatesList
         phrase="delicadeza"
         title="POSTRES..."
-        image={null}
+        image={postresImageUrl}
         platos={postres}
         invested={false}
       />

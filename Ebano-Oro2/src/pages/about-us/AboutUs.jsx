@@ -6,7 +6,6 @@ export const AboutUs = () => {
       <h2>¿Quienes Somos?</h2>
       <div className="about-us-container">
         <div className="about-us-image-container first-image">
-          <img src={null} alt="" className="about-us-image" />
         </div>
 
         <div className="about-us-card-container">
@@ -28,7 +27,6 @@ export const AboutUs = () => {
           className="about-us-image-container second-image"
           style={{ gridRow: 3 / 4 }}
         >
-          <img src={null} alt="" className="about-us-image" />
         </div>
       </div>
     </section>

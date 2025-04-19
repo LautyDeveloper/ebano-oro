@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import logoImage from "../../assets/logo-black.png"; // Replace with your logo image path
 import "./header.css";
 
 export const Header = () => {

@@ -5,7 +5,7 @@ export function Reserve() {
   return (
     <section className="reservar-container">
       <div className="reservar-content">
-        <img src={null} alt="" />
+        <div className="reservar-content-image"></div>
         <ReserveForm />
       </div>
     </section>

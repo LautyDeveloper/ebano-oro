@@ -1,6 +1,6 @@
 import { Red } from "./components/Red/Red.jsx";
 import { Redes } from "../../data/redes.js";
-import logoImage from "../../assets/logo-blue.png";
+import logoImage from "../../assets/media/logo/logo-blue.png";
 import "./footer.css";
 export const Footer = () => {
   return (
