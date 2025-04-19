@@ -17,7 +17,7 @@ export const PlatesList = ({ phrase, title, image, platos, invested }) => {
                     <h3 className="platos-item-header-title">{plato.title}</h3>
                     <p className="platos-item-header-desc">{plato.desc}</p>
                   </div>
-                  <span className="platos-item-price">{plato.price}</span>
+                  <span className="platos-item-price">${plato.price}</span>
                 </div>
               );
             })}
