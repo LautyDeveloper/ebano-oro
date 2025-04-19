@@ -34,7 +34,8 @@
   font-size: 3.5rem;
   text-transform: uppercase;
   letter-spacing: 10px;
-  font-family: monospace;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 .hero .hero-content .hero-text .hero-subtitle {
   font-size: 1.2rem;
