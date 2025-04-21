@@ -4,10 +4,6 @@
   background-color: #191716;
   height: 90vh;
 }
-.about-us {
-  font-size: 2rem;
-  color: #e6af2e;
-}
 .about-us .about-us-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -86,7 +82,7 @@
   .about-us-card
   .about-us-card-text
   .about-us-card-phrase {
-  font-size: 1.8rem;
+  font-size: 3rem;
   color: #e6af2e;
 }
 

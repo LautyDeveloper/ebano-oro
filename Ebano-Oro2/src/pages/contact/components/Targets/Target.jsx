@@ -5,7 +5,7 @@ export const Target = ({ image, title, parragraph }) => {
         <img src={image} alt="" />
             <div className="target-text">
                 <h3>{title}</h3>
-                <p>{parragraph}</p>
+                <p className="parragraph">{parragraph}</p>
             </div>
         </div>
     );

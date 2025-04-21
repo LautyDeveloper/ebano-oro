@@ -23,7 +23,7 @@ export const Header = () => {
   return (
     <header className="header">
       <div className="header-logo-container">
-        <h1>Ebano & Oro</h1>
+        <h1 className="logo">Ebano & Oro</h1>
       </div>
       <div className="header-nav-container">
         {isMobile && (
@@ -41,25 +41,25 @@ export const Header = () => {
         >
           <ul className="header-nav-list">
             <li>
-              <a href="#">Inicio</a>
+              <a href="#" className="link">Inicio</a>
             </li>
             <li>
-              <a href="#">Sobre Nosotros</a>
+              <a href="#" className="link">Sobre Nosotros</a>
             </li>
             <li>
-              <a href="#">Menu</a>
+              <a href="#" className="link">Menu</a>
             </li>
             <li>
-              <a href="#">Reservas</a>
+              <a href="#" className="link">Reservas</a>
             </li>
             <li>
-              <a href="#">Testimonios</a>
+              <a href="#" className="link">Testimonios</a>
             </li>
             <li>
-              <a href="#">Galeria</a>
+              <a href="#" className="link">Galeria</a>
             </li>
             <li>
-              <a href="#">Contacto</a>
+              <a href="#" className="link">Contacto</a>
             </li>
           </ul>
           <div className="header-reserve-container">

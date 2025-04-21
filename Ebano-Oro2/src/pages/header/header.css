@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0px 40px;
-  background-color: #22202C;
+  background-color: #22202c;
   height: 8vh;
   width: 100%;
 }
@@ -40,7 +40,7 @@
   top: 8vh;
   right: 0%;
   height: 92vh;
-  background-color: #22202C;
+  background-color: #22202c;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -87,7 +87,6 @@
   color: #e0e2db;
   text-decoration: none;
   font-size: 2rem;
-  font-weight: 600;
 }
 
 .header .header-nav-container .header-nav ul li a:hover {
@@ -125,7 +124,7 @@
   .header .header-nav-container .header-nav ul li {
     width: auto;
   }
-  
+
   .header .header-nav-container .header-nav ul li a {
     font-size: 1.4rem;
   }

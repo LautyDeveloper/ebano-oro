@@ -9,19 +9,19 @@ export const Footer = () => {
         <img src={logoImage} alt="" />
         <div className="footer-data">
           <div className="footer-links-container">
-            <a href="">Inicio</a>
-            <a href="">Sobre Nosotros</a>
-            <a href="">Menu</a>
-            <a href="">Testimonios</a>
-            <a href="">Galeria</a>
-            <a href="">Contacto</a>
+            <a href="" className="link">Inicio</a>
+            <a href="" className="link">Sobre Nosotros</a>
+            <a href="" className="link">Menu</a>
+            <a href="" className="link">Testimonios</a>
+            <a href="" className="link">Galeria</a>
+            <a href="" className="link">Contacto</a>
           </div>
           <div className="footer-redes-container">
             {Redes.map((red, index) => {
               return <Red key={index} name={red.name} url={red.url} />;
             })}
           </div>
-          <p>
+          <p className="parragraph">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
             nesciunt ut harum laborum, aliquid ab blanditiis animi impedit
             numquam corrupti, eius quo repellendus ea tempora unde id modi magni

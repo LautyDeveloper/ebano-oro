@@ -27,20 +27,15 @@
 }
 .hero .hero-content .hero-phrase {
   font-size: 1.5rem;
-  font-family: "Sacramento", cursive;
-  font-weight: 700;
   color: #e6af2e;
 }
 .hero .hero-content .hero-content-princ .hero-title {
   font-size: 3.5rem;
   text-transform: uppercase;
   letter-spacing: 15px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
 }
 .hero .hero-content .hero-content-princ .hero-subtitle {
   font-size: 1.2rem;
-  font-family: "Courier New", Courier, monospace;
 }
 .hero .hero-content .hero-button-container {
   width: 100%;
@@ -66,10 +61,10 @@
     height: 90vh;
   }
   .hero .hero-content {
-    height: 55%;
+    height: 50%;
   }
   .hero .hero-content .hero-phrase {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .hero .hero-content .hero-content-princ .hero-title {
     font-size: 5rem;
