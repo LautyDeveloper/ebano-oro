@@ -5,4 +5,11 @@
     height: 90px;
     border-radius: 100%;
     border: 2px solid #E6AF2E;
+    display: grid;
+    place-items: center;
+}
+
+.red-link .red-link-icon{
+    width: 50%;
+    height: 50%;
 }
