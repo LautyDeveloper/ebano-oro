@@ -1,3 +1,4 @@
+import { ReserveButton } from "../../components/reserve-button/ReserveButton";
 import "./about-us.css";
 
 export const AboutUs = () => {
@@ -19,7 +20,7 @@ export const AboutUs = () => {
                 En Ebano & Oro, tradición y modernidad se combinan.
               </p>
             </div>
-            <button className="about-us-card-button">Reserva Ya</button>
+            <ReserveButton style={{width:"80%", height:"12%", fontSize:"1.8rem"}}/>
           </div>
         </div>
 

@@ -1,4 +1,5 @@
 import "./hero.css";
+import { ReserveButton } from "../../components/reserve-button/ReserveButton.jsx";
 export const Hero = () => {
   return (
     <div className="hero">
@@ -14,7 +15,7 @@ export const Hero = () => {
           </p>
         </div>
         <div className="hero-button-container">
-          <button className="hero-button">RESERVA YA</button>
+          <ReserveButton style={{width:"30%", height:"100%", fontSize:"1.8rem"}}/>
         </div>
       </div>
     </div>

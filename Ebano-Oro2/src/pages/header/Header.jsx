@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { ReserveButton } from "../../components/reserve-button/ReserveButton.jsx";	
 import { motion } from "framer-motion";
 import "./header.css";
 
@@ -63,7 +64,7 @@ export const Header = () => {
             </li>
           </ul>
           <div className="header-reserve-container">
-            <button className="header-reserve-button">Reservar</button>
+          <ReserveButton style={{width:"100%", height:"70%", fontSize:"1.2rem"}}/>
           </div>
         </motion.nav>
       </div>

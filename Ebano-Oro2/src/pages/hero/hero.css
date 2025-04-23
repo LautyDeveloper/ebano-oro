@@ -43,18 +43,6 @@
   display: grid;
   place-items: center;
 }
-.hero .hero-content .hero-button-container .hero-button {
-  background-color: #e6af2e;
-  color: #e0e2db;
-  border: none;
-  border-radius: 10px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s;
-  height: 100%;
-  width: 250px;
-}
 
 @media screen and (min-width: 768px) {
   .hero {
@@ -77,10 +65,5 @@
   }
   .hero .hero-content .hero-button-container {
     height: 15%;
-  }
-  .hero .hero-content .hero-button-container .hero-button {
-    font-size: 1.3rem;
-    width: 300px;
-    font-weight: 700;
   }
 }
