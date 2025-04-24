@@ -28,14 +28,14 @@
     ],
     "principales": [
       {
-        "title": "Filet Mignon con Puré Trufado",
-        "desc": "Jugoso, tierno y con un toque de trufa.",
-        "price": 25000
-      },
-      {
         "title": "Risotto de Mariscos",
         "desc": "Cremoso, lleno de mar y sabor.",
         "price": 22500
+      },
+      {
+        "title": "Filet Mignon con Puré Trufado",
+        "desc": "Jugoso, tierno y con un toque de trufa.",
+        "price": 25000
       },
       {
         "title": "Pato Confitado con Reducción de Oporto",
