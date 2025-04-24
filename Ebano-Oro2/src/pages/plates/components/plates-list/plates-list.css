@@ -1,9 +1,8 @@
 .platos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
   width: 100%;
-  height: 100vh;
+  height: 95vh;
 }
 
 .platos-black {
@@ -16,48 +15,44 @@
 
 .platos-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 100%;
   height: 100%;
-  width: 80%;
-  margin: 40px 0;
 }
-
-.invested {
-  background-color: #191716;
-  flex-direction: row-reverse;
-  width: 80%;
-}
-
 .platos-container img {
-  height: 600px;
-  width: 400px;
+  display: none;
 }
 
 .platos-container .plato-info {
-  height: 600px;
-  width: 550px;
+  height: 750px;
+  width: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .platos-container .plato-info .plato-info-header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
-  height: 15%;
+  align-items: center;
+  width: 100%;
+  height: 10%;
 }
 
 .platos-container .plato-info .plato-info-header .plato-info-phrase {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #e6af2e;
 }
 
 .platos-container .plato-info .plato-info-header .plato-info-title {
-  font-size: 3rem;
+  font-size: 1.8rem;
   color: #ffffff;
 }
 
@@ -66,24 +61,25 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 15px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
 }
 
 .platos-container .plato-info .platos-list .platos-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: 20%;
 }
 
 .platos-container .plato-info .platos-list .platos-item .platos-item-header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 90%;
+  height: 80%;
   color: white;
 }
 
@@ -93,8 +89,8 @@
   .platos-item
   .platos-item-header
   .platos-item-header-title {
-  font-size: 1.4rem;
-  width: 50%;
+  font-size: 1.2rem;
+  width: 75%;
   margin: 0 0 5px 0;
   font-weight: 400;
 }
@@ -106,9 +102,73 @@
   .platos-item-header
   .platos-item-header-desc {
   font-size: 1.1rem;
+  width: 95%;
 }
+
 .platos-container .plato-info .platos-list .platos-item .platos-item-price {
   color: #e6af2e;
   font-weight: 500;
   font-size: 1.3rem;
+}
+@media screen and (min-width: 768px) {
+  .platos {
+    height: 100vh;
+  }
+
+  .platos-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 40px 0;
+  }
+
+  .platos-container img {
+    display: block;
+    height: 650px;
+    width: 400px;
+  }
+
+  .platos-container .plato-info {
+    height: 650px;
+    width: 550px;
+    justify-content: space-between;
+  }
+
+  .platos-container .plato-info .plato-info-header {
+    align-items: flex-start;
+    height: 20%;
+  }
+
+  .platos-container .plato-info .plato-info-header .plato-info-phrase {
+    font-size: 2rem;
+  }
+
+  .platos-container .plato-info .plato-info-header .plato-info-title {
+    font-size: 3rem;
+  }
+
+  .platos-container .plato-info .platos-list {
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .platos-container
+    .plato-info
+    .platos-list
+    .platos-item
+    .platos-item-header
+    .platos-item-header-title {
+    font-size: 1.4rem;
+    width: 50%;
+  }
+
+  .platos-container
+    .plato-info
+    .platos-list
+    .platos-item
+    .platos-item-header
+    .platos-item-header-desc {
+    width: 100%;
+  }
 }
