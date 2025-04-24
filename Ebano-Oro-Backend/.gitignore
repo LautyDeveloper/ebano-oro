@@ -1,0 +1,41 @@
+# Node
+node_modules/
+.env
+package-lock.json
+npm-debug.log*
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Build
+dist/
+build/
+
+# Frontend (React)
+**/node_modules/
+**/build/
+*.DS_Store
+
+# VS Code
+.vscode/
+
+# Optional: sistema operativo
+Thumbs.db
+.DS_Store
+
+# Optional: Mac/Linux/Windows
+*.swp
+*.swo
+*.bak

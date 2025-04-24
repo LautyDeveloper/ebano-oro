@@ -1,0 +1,10 @@
+.reserve-button {
+  background-color: #e6af2e;
+  color: #e0e2db;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 10px;
+}

@@ -10,7 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/lora": "^5.2.5",
+    "@fontsource-variable/montserrat": "^5.2.5",
+    "@fontsource-variable/roboto": "^5.2.5",
+    "@fontsource/pacifico": "^5.2.5",
     "framer-motion": "^12.6.2",
+    "lucide-react": "^0.503.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

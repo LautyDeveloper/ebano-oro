@@ -14,15 +14,19 @@
   width: 100%;
 }
 
-.reservar-container .reservar-content img {
+.reservar-container .reservar-content .reseravr-content-image {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
-  .reservar-container .reservar-content img {
+  .reservar-container .reservar-content .reservar-content-image {
     display: block;
     width: 500px;
     height: 650px;
+    background-image: url("../../assets//media/content/reserve.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .reservar-container .reservar-content {

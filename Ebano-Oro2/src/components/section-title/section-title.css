@@ -1,0 +1,33 @@
+.section-title-container {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-section {
+  font-family: "Lora Variable", serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #e6af2e;
+  text-transform: uppercase;
+}
+.phrase-section {
+  font-family: "Pacifico", cursive;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .section-title-container {
+    height: 120px;
+  }
+  .title-section {
+    font-size: 2em;
+  }
+  .phrase-section {
+    font-size: 2.5rem;
+  }
+}

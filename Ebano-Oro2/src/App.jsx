@@ -6,6 +6,7 @@ import { Header } from "./pages/header/Header.jsx";
 import { Hero } from "./pages/hero/Hero.jsx";
 import { Plates } from "./pages/plates/Plates.jsx";
 import { Reserve } from "./pages/reserve/Reserve.jsx";
+import "./assets/fonts/fonts.js";
 function App() {
   return (
     <div className="App">
