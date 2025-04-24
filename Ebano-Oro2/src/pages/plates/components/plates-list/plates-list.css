@@ -153,6 +153,10 @@
     gap: 15px;
   }
 
+  .platos-container .plato-info .platos-list .platos-item .platos-item-header {
+    height: 100%;
+  }
+
   .platos-container
     .plato-info
     .platos-list
