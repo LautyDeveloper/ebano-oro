@@ -15,21 +15,21 @@ export const Plates = () => {
     <section className="platos-section">
       <PlatesList
         phrase="pequeños detalles"
-        title="ENTRADAS..."
+        title="ENTRADAS"
         image={entradasImageUrl}
         platos={entradas}
         invested={false}
       />
       <PlatesList
         phrase="excelencia y perfección en cada uno"
-        title="PLATOS PRINCIPALES..."
+        title="PLATOS PRINCIPALES"
         image={principalesImageUrl}
         platos={principales}
         invested={true}
       />
       <PlatesList
         phrase="delicadeza"
-        title="POSTRES..."
+        title="POSTRES"
         image={postresImageUrl}
         platos={postres}
         invested={false}

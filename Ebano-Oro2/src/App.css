@@ -26,13 +26,6 @@
   font-weight: 500;
 }
 
-.title-section {
-  font-family: "Lora Variable", serif;
-  font-size: 3.5rem;
-  font-weight: 500;
-  color: #e6af2e;
-}
-
 @media screen and (min-width: 768px) {
   .developed-by {
     padding: 15px;

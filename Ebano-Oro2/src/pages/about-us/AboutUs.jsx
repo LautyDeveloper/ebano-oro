@@ -1,13 +1,16 @@
 import { ReserveButton } from "../../components/reserve-button/ReserveButton";
+import { SectionTitle } from "../../components/section-title/SectionTitle";
 import "./about-us.css";
 
 export const AboutUs = () => {
   return (
     <section className="about-us">
-      <h2 className="title-section">¿Quienes Somos?</h2>
+      <SectionTitle
+        phrase={"Nuestra Historia Comienza"}
+        title={"Con una Pasion por la Excelencia"}
+      />
       <div className="about-us-container">
-        <div className="about-us-image-container first-image">
-        </div>
+        <div className="about-us-image-container first-image"></div>
 
         <div className="about-us-card-container">
           <div className="about-us-card">
@@ -20,15 +23,16 @@ export const AboutUs = () => {
                 En Ebano & Oro, tradición y modernidad se combinan.
               </p>
             </div>
-            <ReserveButton style={{width:"80%", height:"12%", fontSize:"1.8rem"}}/>
+            <ReserveButton
+              style={{ width: "80%", height: "12%", fontSize: "1.8rem" }}
+            />
           </div>
         </div>
 
         <div
           className="about-us-image-container second-image"
           style={{ gridRow: 3 / 4 }}
-        >
-        </div>
+        ></div>
       </div>
     </section>
   );
