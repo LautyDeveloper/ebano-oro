@@ -15,7 +15,9 @@ export const Hero = () => {
           </p>
         </div>
         <div className="hero-button-container">
-          <ReserveButton style={{width:"30%", height:"100%", fontSize:"1.8rem"}}/>
+          <ReserveButton
+            style={{ width: "30%", height: "100%", fontSize: "1.8rem" }}
+          />
         </div>
       </div>
     </div>

@@ -26,16 +26,17 @@
   gap: 10px;
 }
 .hero .hero-content .hero-phrase {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #e6af2e;
 }
 .hero .hero-content .hero-content-princ .hero-title {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   text-transform: uppercase;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
 }
 .hero .hero-content .hero-content-princ .hero-subtitle {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  width: 95%;
 }
 .hero .hero-content .hero-button-container {
   width: 100%;
