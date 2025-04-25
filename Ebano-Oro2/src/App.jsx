@@ -7,6 +7,7 @@ import { Hero } from "./pages/hero/Hero.jsx";
 import { Plates } from "./pages/plates/Plates.jsx";
 import { Reserve } from "./pages/reserve/Reserve.jsx";
 import "./assets/fonts/fonts.js";
+import { Testimonials } from "./pages/testimonials/Testimonials.jsx";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <AboutUs />
       <Plates />
       <Reserve />
+      <Testimonials />
       <Contact />
       <Footer />
 
