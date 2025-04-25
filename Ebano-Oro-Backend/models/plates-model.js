@@ -3,7 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const platosPath = path.join(__dirname, "../data/plates.json");
+const platosPath = path.join(__dirname, "../mocks/plates.json");
 
 export async function getAllPlatos() {
   const data = await readFile(platosPath, "utf-8");

@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Lucía Martínez",
+      "date": "2024-11-20",
+      "rating": 5,
+      "scores": {
+        "comida": 5,
+        "atencion": 5,
+        "ambiente": 5,
+        "mobiliario": 5
+      },
+      "text": "Una experiencia increíble. La atención, el ambiente y cada plato... todo impecable. Volvería mil veces."
+    },
+    {
+      "name": "Julián Ríos",
+      "date": "2025-01-15",
+      "rating": 4,
+      "scores": {
+        "comida": 5,
+        "atencion": 4,
+        "ambiente": 4,
+        "mobiliario": 3
+      },
+      "text": "Muy buena comida, aunque el postre podría haber estado un poquito más frío. Igual la pasamos genial."
+    },
+    {
+      "name": "Carla Domínguez",
+      "date": "2024-12-05",
+      "rating": 5,
+      "scores": {
+        "comida": 5,
+        "atencion": 5,
+        "ambiente": 5,
+        "mobiliario": 4
+      },
+      "text": "Simplemente espectacular. Probamos las entradas y los principales, sabores intensos y muy bien presentados."
+    },
+    {
+      "name": "Tomás Fernández",
+      "date": "2025-02-22",
+      "rating": 3,
+      "scores": {
+        "comida": 4,
+        "atencion": 3,
+        "ambiente": 3,
+        "mobiliario": 2
+      },
+      "text": "La comida estaba bien, pero esperamos bastante entre plato y plato. Tal vez fue un mal día."
+    },
+    {
+      "name": "Marina López",
+      "date": "2025-03-30",
+      "rating": 5,
+      "scores": {
+        "comida": 5,
+        "atencion": 5,
+        "ambiente": 5,
+        "mobiliario": 5
+      },
+      "text": "El lugar es precioso y los mozos súper atentos. El risotto de mariscos fue lo mejor que comí este año."
+    },
+    {
+      "name": "Rodrigo Castro",
+      "date": "2025-04-10",
+      "rating": 4,
+      "scores": {
+        "comida": 4,
+        "atencion": 5,
+        "ambiente": 4,
+        "mobiliario": 4
+      },
+      "text": "Excelente todo, solo le bajé una estrella porque no tenían una cerveza artesanal que quería. El resto, 10 puntos."
+    }
+  ]
+  

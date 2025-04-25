@@ -1,7 +1,7 @@
 .reservar-container {
   display: grid;
   place-items: center;
-  height: 100vh;
+  height: 75vh;
   max-width: 100vw;
   background-color: #191716;
 }
@@ -19,6 +19,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .reservar-container {
+    height: 100vh;
+  }
   .reservar-container .reservar-content .reservar-content-image {
     display: block;
     width: 500px;

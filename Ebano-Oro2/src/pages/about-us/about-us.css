@@ -1,16 +1,18 @@
 .about-us {
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   background-color: #191716;
-  height: 90vh;
+  height: 100vh;
 }
 .about-us .about-us-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100px 500px 100px;
+  grid-template-rows: 1fr 5fr 1fr;
   place-items: center;
   width: 90%;
-  height: 700px;
+  height: 80%;
   gap: 20px;
 }
 
@@ -82,7 +84,7 @@
   .about-us-card
   .about-us-card-text
   .about-us-card-phrase {
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: #e6af2e;
 }
 
