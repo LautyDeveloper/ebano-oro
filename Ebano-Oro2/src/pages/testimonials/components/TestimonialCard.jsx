@@ -1,3 +1,4 @@
+import "./testimonial-card.css";
 export const TestimonialCard = ({ testimonio }) => {
   if (!testimonio) return null;
 
@@ -5,16 +6,33 @@ export const TestimonialCard = ({ testimonio }) => {
 
   return (
     <div className="testimonial-card">
-      <h3>{name}</h3>
-      <p className="testimonial-date">{date}</p>
-      <p className="testimonial-text">"{text}"</p>
-      <p className="testimonial-rating">⭐ {rating}/5</p>
+      <div className="testimonial-card-content">
+        <div className="testimonial-card-header">
+          <h3>{name}</h3>
+          <div className="testimonial-card-header-data">
+            <p className="testimonial-date">{date}</p>
+            <p>Dato de Color</p>
+            <p>Dato de Color</p>
+          </div>
+          <p className="testimonial-card-header-rating">⭐ {rating}/5</p>
+        </div>
 
-      <div className="testimonial-scores">
-        <p>🍽️ Comida: {scores.comida}/5</p>
-        <p>🤵 Atención: {scores.atencion}/5</p>
-        <p>🎶 Ambiente: {scores.ambiente}/5</p>
-        <p>🪑 Mobiliario: {scores.mobiliario}/5</p>
+        <p className="testimonial-card-text">"{text}"</p>
+
+        <div className="testimonial-scores">
+          <p>
+            <b>🍽️ Comida:</b> {scores.comida}/5
+          </p>
+          <p>
+            <b>🤵 Atención:</b> {scores.atencion}/5
+          </p>
+          <p>
+            <b>🎶 Ambiente:</b> {scores.ambiente}/5
+          </p>
+          <p>
+            <b>🪑 Mobiliario:</b> {scores.mobiliario}/5
+          </p>
+        </div>
       </div>
     </div>
   );

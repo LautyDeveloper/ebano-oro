@@ -1,6 +1,7 @@
 import { useFetchTests } from "../../hooks/useFetchTests";
 import { TestimonialCard } from "./components/TestimonialCard";
 import { useState } from "react";
+import { SectionTitle } from "../../components/section-title/SectionTitle";
 import "./testimonials.css";
 
 export const Testimonials = () => {
@@ -20,8 +21,7 @@ export const Testimonials = () => {
 
   return (
     <section className="testimonials-section">
-      <h2 className="section-title">Lo que dicen nuestros comensales</h2>
-
+      <SectionTitle phrase={"Nuestra Pasion"} title={"En sus Palabras"} />
       <div className="testimonial-nav">
         <button onClick={prev} disabled={index === 0}>
           ⬅️
