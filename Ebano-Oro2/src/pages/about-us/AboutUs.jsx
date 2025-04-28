@@ -4,7 +4,7 @@ import "./about-us.css";
 
 export const AboutUs = () => {
   return (
-    <section className="about-us">
+    <section className="about-us" id="about-us">
       <SectionTitle
         phrase={"Nuestra Historia Comienza"}
         title={"Con una Pasion por la Excelencia"}

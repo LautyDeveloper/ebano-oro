@@ -1,3 +1,6 @@
+* {
+  scroll-behavior: smooth;
+}
 .developed-by {
   background-color: #191716;
   display: grid;

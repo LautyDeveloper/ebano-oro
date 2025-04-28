@@ -4,7 +4,7 @@ import { SectionTitle } from "../../components/section-title/SectionTitle";
 
 export function Reserve() {
   return (
-    <section className="reservar-container">
+    <section className="reservar-container" id="reservas">
       <SectionTitle phrase={"Reserva tu mesa en"} title={"Ebano & Oro"} />
       <div className="reservar-content">
         <div className="reservar-content-image"></div>

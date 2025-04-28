@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ReserveButton } from "../../components/reserve-button/ReserveButton.jsx";	
+import { ReserveButton } from "../../components/reserve-button/ReserveButton.jsx";
 import { motion } from "framer-motion";
 import "./header.css";
 
@@ -42,29 +42,40 @@ export const Header = () => {
         >
           <ul className="header-nav-list">
             <li>
-              <a href="#" className="link">Inicio</a>
+              <a href="#about-us" className="link">
+                Sobre Nosotros
+              </a>
             </li>
             <li>
-              <a href="#" className="link">Sobre Nosotros</a>
+              <a href="#platos" className="link">
+                Menu
+              </a>
             </li>
             <li>
-              <a href="#" className="link">Menu</a>
+              <a href="#reservas" className="link">
+                Reservas
+              </a>
             </li>
             <li>
-              <a href="#" className="link">Reservas</a>
+              <a href="#testimonios" className="link">
+                Testimonios
+              </a>
             </li>
             <li>
-              <a href="#" className="link">Testimonios</a>
+              <a href="#" className="link">
+                Galeria
+              </a>
             </li>
             <li>
-              <a href="#" className="link">Galeria</a>
-            </li>
-            <li>
-              <a href="#" className="link">Contacto</a>
+              <a href="#contacto" className="link">
+                Contacto
+              </a>
             </li>
           </ul>
           <div className="header-reserve-container">
-          <ReserveButton style={{width:"100%", height:"70%", fontSize:"1.2rem"}}/>
+            <ReserveButton
+              style={{ width: "100%", height: "70%", fontSize: "1.2rem" }}
+            />
           </div>
         </motion.nav>
       </div>

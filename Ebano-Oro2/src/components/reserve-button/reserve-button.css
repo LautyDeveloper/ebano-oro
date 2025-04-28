@@ -7,4 +7,11 @@
   cursor: pointer;
   text-transform: uppercase;
   border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.reserve-button:hover {
+  background-color: rgb(248, 181, 27);
+  box-shadow: 2px 2px 20px rgba(224, 226, 219, 0.3);
+  color: #e0e2db;
 }

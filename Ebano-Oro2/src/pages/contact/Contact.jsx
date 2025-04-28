@@ -3,7 +3,7 @@ import { Target } from "./components/Targets/Target";
 import { SectionTitle } from "../../components/section-title/SectionTitle";
 export const Contact = () => {
   return (
-    <div className="contacto-container">
+    <div className="contacto-container" id="contacto">
       <SectionTitle
         phrase={"Un punto en el mapa"}
         title={"un viaje al sabor"}

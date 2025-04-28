@@ -20,7 +20,7 @@ export const Testimonials = () => {
   if (error) return <p>Error cargando testimonios</p>;
 
   return (
-    <section className="testimonials-section">
+    <section className="testimonials-section" id="testimonios">
       <SectionTitle phrase={"Nuestra Pasion"} title={"En sus Palabras"} />
       <div className="testimonial-nav">
         <button onClick={prev} disabled={index === 0}>
