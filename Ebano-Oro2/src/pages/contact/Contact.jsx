@@ -16,7 +16,7 @@ export const Contact = () => {
             width="100%"
             height="100%"
             style={{ border: 0, borderRadius: "10px" }}
-            allowFullScreen="true"
+            allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
