@@ -1,11 +1,7 @@
-import { readFile } from "fs/promises";
-import path from "path";
-import { fileURLToPath } from "url";
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const testsPath = path.join(__dirname, "../mocks/tests.json");
+import { getDb } from "../database/connection.js"; // Asumiendo que tenés una función para obtener la conexión
 
 export async function getAllTests() {
-  const data = await readFile(testsPath, "utf-8");
-  return JSON.parse(data);
+  const db = getDb();
+  const tests = await db.collection("Testimonios").find().toArray();
+  return tests;
 }
